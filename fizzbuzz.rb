@@ -2,7 +2,6 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(int)
-  int = gets.strip
    if int % 5==0 && int % 3 == 0
     puts "fizzbuzz"
   elsif int % 3 == 0
