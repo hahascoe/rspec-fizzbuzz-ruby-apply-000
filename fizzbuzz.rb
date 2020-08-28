@@ -3,12 +3,12 @@
 
 def fizzbuzz(int)
   int = gets.strip
-  if int % 3 == 0
+   if int % 5==0 && int % 3 == 0
+    puts "fizzbuzz"
+  elsif int % 3 == 0
     puts "fizz"
   elsif int % 5 == 0
     puts "buzz"
-  if int % 5 && int % 3 == 0
-    puts "fizzbuzz"
   else 
     puts "nil"
 end
