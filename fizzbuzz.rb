@@ -5,9 +5,9 @@ def fizzbuzz(int)
    if int % 5==0 && int % 3 == 0
      "FizzBuzz"
   elsif int % 3 == 0
-    puts "fizz"
-  elsif int % 5 == 0
-    puts "buzz"
+  "fizz"
+  elsif int % 5 == 0  
+  "buzz"
   else nil
   end 
 end
